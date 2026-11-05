@@ -1,0 +1,18 @@
+id = "crossfeed"
+name = "Crossfeed"
+version = "1.0.0"
+api = "1.0"
+kind = "dsp"
+description = "For headphones: mixes a little of each channel, low-passed, into the other, as a room would."
+
+[[setting]]
+key = "level"
+label = "Level, dB below the direct sound (1 to 15)"
+type = "text"
+default = "4.5"
+
+[[setting]]
+key = "cutoff"
+label = "Cutoff, Hz (300 to 2000)"
+type = "text"
+default = "700"
