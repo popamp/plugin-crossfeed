@@ -15,8 +15,16 @@ needs no permissions.
 
 ## Install
 
-You need Popamp built with plug-ins (`cargo build --release --features
-plugins`).
+You need Popamp Plus, the build with plug-ins, 0.6.0 or newer. From
+[apt.popamp.app](https://apt.popamp.app):
+
+```sh
+sudo apt install popamp-plugin-crossfeed
+```
+
+It stays off until you allow it, as below. Or, with any build with
+plug-ins (`cargo build --release --features plugins`), clone it into
+Popamp's plug-ins folder:
 
 ```sh
 git clone https://github.com/popamp/plugin-crossfeed ~/.local/share/popamp/plugins/crossfeed
